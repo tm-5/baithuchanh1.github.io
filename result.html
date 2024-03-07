@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+    <title>Kết quả</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css/result.css">
+
+    
+</head>
+<body>
+    <div id="main">
+        <div id="exam-header">
+                <a class="home-icon" onclick="exitPage()">
+                    <i class="fa-solid fa-house"></i>
+                    <i>Trang chủ</i>
+                </a>
+                <h3 style="width:100%;color: #fff;line-height: 46px; text-align: center;">Trang kết quả</h3>
+        </div>
+        
+        <div class="list-group">
+            <div class="list-group-item ">
+                <p><strong>Câu 1:</strong> Các thành phần cơ bản cho front-end Web là (có thể chọn nhiều đáp án):</p>
+                <form class="question-form" action="">
+
+                    <input class="q" type="checkbox" name="question" value="A"> A. Java<br>
+                    <input class="q" type="checkbox" name="question" value="B"> B. HTML<br>
+                    <input class="q" type="checkbox" name="question" value="C"> C. JS<br>
+                    <input class="q" type="checkbox" name="question" value="D"> D. CSS
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+            <div class="list-group-item"> <p><strong>Câu 2:</strong> Để khai báo một phần tử điều khiển khi nhấn vào sẽ gửi thông tin của form đi, ta sử dụng thẻ nào?</p> 
+                <form class="question-form" action="">
+
+                    <input class="q" type="radio" name="question" value="A" > A. type="text"<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. type="submit"<br> 
+                    <input class="q" type="radio" name="question" value="C"> C. type="password"<br>
+                    <input class="q" type="radio" name="question" value="D"> D. type="file"
+
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+            <div class="list-group-item"> 
+                <p><strong>Câu 3:</strong> CSS có phải là một ngôn ngữ lập trình?</p> 
+                <form class="question-form" action="">
+                    <input class="q" type="radio" name="question" value="A" > A. Yes<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. No
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+            <div class="list-group-item"> <p><strong>CÂU 4:</strong> Đáp án nào là một thẻ đường dẫn?</p> 
+                <form class="question-form" action="">
+
+                    <input class="q" type="radio" name="question" value="A"> A. a<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. div <br>   
+                    <input class="q" type="radio" name="question" value="C"> C. img <br>
+                    <input class="q" type="radio" name="question" value="D"> D. input
+                    
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+            <div class="list-group-item"> <p><strong>CÂU 5:</strong> Tính năng nào trong Dreamweaver cho phép hiển thị trực quan của tài liệu?</p> 
+                <form class="question-form" action="">
+
+                    <input class="q" type="radio" name="question" value="A"> A. Code view<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. Design view<br> 
+                    <input class="q" type="radio" name="question" value="C"> C. Combined view<br> 
+                    <input class="q" type="radio" name="question" value="D"> D. Layout view 
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+    
+            <div class="list-group-item"> <p><strong>CÂU 6:</strong> CSS định nghĩa các style khác nhau cho cùng một loại phần tử HTML bằng cách sử dụng:</p> 
+                <form class="question-form" action="">
+
+                    <input class="q" type="radio" name="question" value="A"> A. Class selector<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. Id selector<br> 
+                    <input class="q" type="radio" name="question" value="C"> C. Name selector<br>
+                    <input class="q" type="radio" name="question" value="D"> D. Type selector 
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+            <div class="list-group-item"> <p><strong>CÂU 7:</strong> Để liên kết tới external style sheet, ta sử dụng thẻ nào?</p> 
+
+                <form class="question-form" action="">
+                    <input class="q" type="radio" name="question" value="A"> A. style<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. a<br> 
+                    <input class="q" type="radio" name="question" value="C"> C. link<br> 
+                    <input class="q" type="radio" name="question" value="D"> D. css 
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+            <div class="list-group-item"> <p><strong>CÂU 8:</strong> Dreamweaver sử dụng giao thức gì để tải một site cục bộ lên web server?</p> 
+                <form class="question-form" action="">
+
+                    <input class="q" type="radio" name="question" value="A"> A. Http<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. Fpt<br> 
+                    <input class="q" type="radio" name="question" value="C"> C. Smtp<br> 
+                    <input class="q" type="radio" name="question" value="D"> D. Hmpt 
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+            <div class="list-group-item"> <p><strong>CÂU 9:</strong> Dreamweaver cho phép làm việc với mấy cách trình bày tài liệu?</p> 
+                <form class="question-form" action="">
+
+                    <input class="q" type="radio" name="question" value="A"> A. 2<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. 3<br> 
+                    <input class="q" type="radio" name="question" value="C"> C. 4<br> 
+                    <input class="q" type="radio" name="question" value="D"> D. 5 
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+            <div class="list-group-item"> 
+                <p><strong>Câu 10:</strong> CSS có phải là một ngôn ngữ lập trình?</p> 
+                <form class="question-form" action="">
+                    <input class="q" type="radio" name="question" value="A" > A. Yes<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. No
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+            <div class="list-group-item"> 
+                <p><strong>Câu 11:</strong> CSS có phải là một ngôn ngữ lập trình?</p> 
+                <form class="question-form" action="">
+                    <input class="q" type="radio" name="question" value="A" > A. Yes<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. No
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+
+            <div class="list-group-item"> <p><strong>CÂU 12:</strong> Để liên kết tới external style sheet, ta sử dụng thẻ nào?</p> 
+                
+                <form class="question-form" action="">
+                    <input class="q" type="radio" name="question" value="A"> A. style<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. a<br> 
+                    <input class="q" type="radio" name="question" value="C"> C. link<br> 
+                    <input class="q" type="radio" name="question" value="D"> D. css 
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+            <div class="list-group-item"> <p><strong>CÂU 13:</strong> Dreamweaver sử dụng giao thức gì để tải một site cục bộ lên web server?</p> 
+                <form class="question-form" action="">
+
+                    <input class="q" type="radio" name="question" value="A"> A. Http<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. Fpt<br> 
+                    <input class="q" type="radio" name="question" value="C"> C. Smtp<br> 
+                    <input class="q" type="radio" name="question" value="D"> D. Hmpt 
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+            <div class="list-group-item"> <p><strong>CÂU 14:</strong> Dreamweaver cho phép làm việc với mấy cách trình bày tài liệu?</p> 
+                <form class="question-form" action="">
+
+                    <input class="q" type="radio" name="question" value="A"> A. 2<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. 3<br> 
+                    <input class="q" type="radio" name="question" value="C"> C. 4<br> 
+                    <input class="q" type="radio" name="question" value="D"> D. 5 
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+
+             
+            <div class="list-group-item"> <p><strong>CÂU 15:</strong> ABC cho phép làm việc với mấy cách trình bày?</p> 
+                <form class="question-form" action="">
+
+                    <input class="q" type="checkbox" name="question" value="A"> A. 2<br> 
+                    <input class="q" type="checkbox" name="question" value="B"> B. 3<br> 
+                    <input class="q" type="checkbox" name="question" value="C"> C. 4<br> 
+                    <input class="q" type="checkbox" name="question" value="D"> D. 5 
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+
+
+            <div class="list-group-item"> <p><strong>CÂU 16:</strong> Hãy chọn đáp án đúng</p> 
+                <form class="question-form" action="">
+
+                    <input class="q" type="radio" name="question" value="A"> A. Yes<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. No
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+
+            <div class="list-group-item"> <p><strong>CÂU 17:</strong> Các cổng dịch vụ web là?</p> 
+                <form class="question-form" action="">
+
+                    <input class="q" type="checkbox" name="question" value="A"> A. 80<br> 
+                    <input class="q" type="checkbox" name="question" value="B"> B. 334<br> 
+                    <input class="q" type="checkbox" name="question" value="C"> C. 443<br> 
+                    <input class="q" type="checkbox" name="question" value="D"> D. 8080 
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+
+            <div class="list-group-item"> <p><strong>CÂU 18:</strong> Dreamweaver cho phép làm việc với mấy cách trình bày tài liệu?</p> 
+                <form class="question-form" action="">
+
+                    <input class="q" type="radio" name="question" value="A"> A. 2<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. 3<br> 
+                    <input class="q" type="radio" name="question" value="C"> C. 4<br> 
+                    <input class="q" type="radio" name="question" value="D"> D. 5 
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+
+            <div class="list-group-item"> <p><strong>CÂU 19:</strong> Dreamweaver cho phép làm việc với mấy cách trình bày tài liệu?</p> 
+                <form class="question-form" action="">
+
+                    <input class="q" type="radio" name="question" value="A"> A. 2<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. 3<br> 
+                    <input class="q" type="radio" name="question" value="C"> C. 4<br> 
+                    <input class="q" type="radio" name="question" value="D"> D. 5 
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+
+            <div class="list-group-item"> <p><strong>CÂU 20:</strong> Dreamweaver cho phép làm việc với mấy cách trình bày tài liệu?</p> 
+                <form class="question-form" action="">
+
+                    <input class="q" type="radio" name="question" value="A"> A. 2<br> 
+                    <input class="q" type="radio" name="question" value="B"> B. 3<br> 
+                    <input class="q" type="radio" name="question" value="C"> C. 4<br> 
+                    <input class="q" type="radio" name="question" value="D"> D. 5 
+                </form>
+            </div>
+            <div class="alert alert-success" style="display: none;"></div>
+            <div class="text" style="padding-left:20px; padding-top: 10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 21:</strong> HTML là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;" ></div>
+
+            <div class="text" style="padding-left:20px; padding-top:10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 22:</strong> JS là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;"></div>
+            <div class="text" style="padding-left:20px; padding-top: 10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 23:</strong> HTML là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;" ></div>
+            
+            <div class="text" style="padding-left:20px; padding-top:10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 24:</strong> JS là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;"></div> 
+            <div class="text" style="padding-left:20px; padding-top: 10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 25:</strong> HTML là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;" ></div>
+
+            <div class="text" style="padding-left:20px; padding-top:10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 26:</strong> JS là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;"></div>
+            <div class="text" style="padding-left:20px; padding-top: 10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 27:</strong> HTML là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;" ></div>
+            
+            <div class="text" style="padding-left:20px; padding-top:10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 28:</strong> JS là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;"></div> 
+            <div class="text" style="padding-left:20px; padding-top: 10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 29:</strong> HTML là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;" ></div>
+
+            <div class="text" style="padding-left:20px; padding-top:10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 30:</strong> JS là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;"></div>
+            <div class="text" style="padding-left:20px; padding-top: 10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 31:</strong> HTML là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;" ></div>
+            
+            <div class="text" style="padding-left:20px; padding-top:10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 32:</strong> JS là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;"></div> 
+            <div class="text" style="padding-left:20px; padding-top: 10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 33:</strong> HTML là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;" ></div>
+
+            <div class="text" style="padding-left:20px; padding-top:10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 34:</strong> JS là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;"></div>
+            <div class="text" style="padding-left:20px; padding-top: 10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 35:</strong> HTML là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;" ></div>
+            
+            <div class="text" style="padding-left:20px; padding-top:10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 36:</strong> JS là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;"></div> 
+            <div class="text" style="padding-left:20px; padding-top: 10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 37:</strong> HTML là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;" ></div>
+
+            <div class="text" style="padding-left:20px; padding-top:10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 38:</strong> JS là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;"></div>
+            <div class="text" style="padding-left:20px; padding-top: 10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 39:</strong> HTML là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;" ></div>
+            
+            <div class="text" style="padding-left:20px; padding-top:10px; border: 1px solid rgba(0, 0, 0, .125);"> <p><strong>CÂU 40:</strong> JS là viết tắt của ? </p> 
+                <form class="text-question" action="">
+                    <input class="t" type="text" name="question" placeholder="  Không phân biệt chữ hoa/thường"> 
+                </form>
+            </div>
+            <div class="alert alert-success text-success" style="display: none;"></div> 
+        </div>
+        <div id="user" class="alert alert-info" style="display: none; margin-left: 120px; font-size:20px ;">
+            
+        </div>
+        <div id="show" class="alert alert-info" style="display: none; margin-left: 120px; font-size:20px ;">
+            <div id="grade"></div>
+            <div id="grade_10"></div>
+        </div>
+        <div class="submit-section" >
+            <button class="btn-danger" style="padding:15px 30px; " onclick="showGrade()">
+                Xem kết quả
+        </div>
+
+
+    </div>
+
+    <script src="js/result.js"></script>
+</body>
+</html>

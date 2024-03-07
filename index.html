@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    
+    <h2 style="color:white" ;> Hệ thống khảo sát PTIT</h2>
+    <div class="container" id="container">
+        
+
+        <div class="form-container sign-in-container" >
+            <form id="loginForm">
+                <h1>Hãy điền thông tin của bạn</h1>
+                <div class="input-field">
+                    <label for="">Họ và tên</label>
+                    <input type="text" id="usernameLogin" placeholder="Họ và Tên">
+                </div>
+                <div class="input-field">
+                    <label for="">Ngày sinh </label>
+                    <input type="date" id="birth" placeholder="Ngày tháng năm sinh">
+                </div>
+                <div class="input-field">
+                    <label for="">CCCD</label>
+                    <input type="text" id="id" placeholder="CCCD">      
+                </div>
+                <div class="input-field">
+                    <label for="">Địa chỉ</label>
+                    <input type="text" id="address" placeholder="Địa chỉ">      
+                </div>
+
+                <button type="button" onclick="signIn()">Vào làm bài khảo sát</button>
+            </form>
+        </div>
+        
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
